@@ -76,6 +76,7 @@ No modules.
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_assign_public_ip"></a> [assign\_public\_ip](#input\_assign\_public\_ip) | Whether to assign a public IP to the task | `bool` | `false` | no |
+| <a name="input_container_name"></a> [container\_name](#input\_container\_name) | The container\_name | `string` | `"app"` | no |
 | <a name="input_ecs_cluster_name"></a> [ecs\_cluster\_name](#input\_ecs\_cluster\_name) | The ARN of the ECS cluster | `string` | n/a | yes |
 | <a name="input_ecs_task_name"></a> [ecs\_task\_name](#input\_ecs\_task\_name) | The name of the ECS task definition | `string` | n/a | yes |
 | <a name="input_log_level"></a> [log\_level](#input\_log\_level) | The log level for the state machine | `string` | `"ERROR"` | no |
