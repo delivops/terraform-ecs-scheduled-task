@@ -11,7 +11,7 @@ resource "aws_ecs_task_definition" "this" {
 
   container_definitions = jsonencode([
     {
-      name  = "cowsay"
+      name  = var.container_name
       image = "docker/whalesayy"
       cpu   = 0
 
