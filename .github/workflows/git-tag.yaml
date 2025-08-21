@@ -4,8 +4,9 @@ on:
     branches:
       - main
     paths-ignore:
-      - .github/workflows/git-tag.yaml
-      - "README.md"
+      - 'README.md'
+      - '.github/**'
+      - 'examples/**' 
 
 permissions:
   contents: write
